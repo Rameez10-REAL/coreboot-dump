@@ -20,3 +20,7 @@ parameters to flash only to the BIOS region.
 ===================================================
 [user@computer ~/files/custom-coreboot-img/coreboot/compileda[user@computer ~/files/custom-coreboot-img/coreboot/compiledandcustom/skulls/t430]$ 
 
+Do "diff build/t430_coreboot_seabios_aa1efece74_top.rom ~/files/custom-coreboot-img/coreboot/prebuilt/skulls-1.0.8/t430_coreboot_seabios_free_aa1efece74_top.rom"
+
+If they are no diffrence between stock compiled and prebuilt. You are doing everything right
+
