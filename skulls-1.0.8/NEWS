@@ -1,0 +1,271 @@
+skulls 1.0.8 - released 2023-06-13
+----------------------------------
+This release includes the following changes:
+* based on coreboot commit aa1efece74
+* update SeaBIOS to version 1.16.2
+* added support for the Thinkpad W530
+
+skulls 1.0.7 - released 2023-02-15
+----------------------------------
+This release includes the following changes:
+* based on coreboot commit db4b71ff10
+* updated coreboot-sdk to 2022-12-18_3b32af950d
+* update SeaBIOS to version 1.16.1
+* minor documentation fixes
+
+skulls 1.0.6 - released 2022-12-14
+----------------------------------
+This release includes the following changes:
+* based on coreboot commit 3c528f2830
+* updated coreboot-sdk to 2022-09-18_c8870b1334
+* Added the Tigard programmer
+* minor documentation and script fixes
+
+skulls 1.0.5 - released 2022-05-30
+----------------------------------
+This release includes the following changes:
+* based on coreboot commit d5c31acee4
+* update SeaBIOS to version 1.16.0
+* updated coreboot-sdk to 2022-04-04_9a8d0a03db
+
+skulls 1.0.4 - released 2021-12-16
+----------------------------------
+This release includes the following changes:
+* based on coreboot commit 74d2218cc7
+* update SeaBIOS to version 1.15.0
+* add support for the T530
+* bugfixes
+
+skulls 1.0.3 - released 2021-10-27
+----------------------------------
+This release includes the following changes:
+* based on coreboot commit 45ce84113e
+* updated coreboot-sdk to 2021-09-23_b0d87f753c
+* verify image before flashing if possible
+* bugfixes
+
+skulls 1.0.2 - released 2021-10-19
+----------------------------------
+This release includes the following changes:
+* based on coreboot commit 45ce84113e
+* add support for the Thinkpad T440p
+* minor bugfixes
+
+skulls 1.0.1 - released 2021-04-20
+----------------------------------
+This release includes the following changes:
+* based on coreboot commit 8f3e1192df
+* update coreboot-sdk to version 2021-04-06_7014f8258e
+* minor bugfixes
+
+skulls 1.0.0 - released 2021-03-22
+----------------------------------
+This pre-release includes the following changes:
+* based on coreboot commit 4de7610b32
+* one unified release package
+* add support for the T430
+
+skulls x230-0.1.12 - released 2021-02-19
+----------------------------------------
+This release includes the following changes:
+* based on coreboot commit a2642d0ffe
+* update coreboot-sdk to version 0ad5fbd48d
+* fix x230_skulls -U
+
+skulls 0.2.0 - unreleased
+---------------------------------------
+This release includes the following changes:
+* spi speed is now set with -s
+* board (x230|x230t) is set with -b
+* one release for all boards
+
+skulls x230t-0.0.2 - released 2020-10-25
+----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 8053595370
+* update SeaBIOS to version 1.14.0
+
+skulls x230-0.1.11 - released 2020-10-25
+----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 8053595370
+* update SeaBIOS to version 1.14.0
+
+skulls-x230t 0.0.1 - released 2020-07-01
+----------------------------------------
+* initial separate release for the X230T
+  based on the X230 configuration
+* based on coreboot commit 24e6221706
+
+skulls-x230 0.1.10 - released 2020-07-01
+----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 24e6221706
+* update coreboot-sdk to version 65718760fa
+* make internal flashing more reliable
+
+skulls-x230 0.1.9 - released 2020-03-24
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit 4bd6927388
+* removed memtest secondary payload from SeaBIOS
+
+skulls-x230 0.1.8 - released 2020-01-03
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit 6af55e583d
+* update SeaBIOS to version 1.13.0
+
+skulls-x230 0.1.7 - released 2019-10-22
+---------------------------------------
+This release includes the following changes:
+* update coreboot-sdk to version d70f5fae1c
+* based on coreboot commit 4357a82076
+* updated ifdtool
+* create sha256 has for backup images
+* documentation updates
+
+skulls-x230 0.1.6 - released 2019-06-07
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit 555419f356
+  (parent in master branch 55c5777170)
+* simplified and improved scripts:
+  * before_first_install.sh is included in x230_skulls.sh
+  * upgrade.sh is now x230_skulls.sh -U
+  * only the executable scripts are in the top directory
+
+skulls-x230 0.1.5 - released 2019-05-02
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit 139b3cef03
+  (parent in master branch d32a493091)
+* update SeaBIOS to version 1.12.1
+
+skulls-x230 0.1.4 - released 2019-05-02
+---------------------------------------
+This release includes the following changes:
+* Fixed chip detection for "external" scripts
+
+skulls-x230 0.1.3 - released 2019-04-03
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit 8f0576f420
+  (parent in master branch 622a28d22b)
+* update Intel's microcode revision from 0x20 to 0x21
+
+skulls-x230 0.1.2 - released 2019-03-08
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit 9276fe4089
+* update coreboot-sdk to version 1.53
+* increase RPi spi speed for flashing
+* add -d option to me_cleaner
+
+skulls-x230 0.1.1 - released 2019-01-18
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit cd97982e2e
+* updates and bugfixes in the scripts
+* bootsplash logo added to the nonfree image
+
+skulls-x230 0.1.0 - released 2018-12-19
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit 2ca2acc51f
+  (parent in master branch 47d6663bba)
+* add an optional second image that includes SeaVGABIOS
+
+skulls-x230 0.0.12 - released 2018-11-23
+----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 717f4d5e14
+  (parent in master branch 3032d76778)
+* updates SeaBIOS to version 1.12.0
+* simplify unpacking the release archive by including a directory
+
+skulls-x230 0.0.11 - released 2018-11-05
+----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 27ffa4c790
+  (parent in master branch 715cb40963)
+* -b option for external scripts for RPi SPI speed
+
+skulls-x230 0.0.10 - released 2018-09-06
+----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 8823037d50
+  (parent in master branch fb758d420b)
+* updated latest original Lenovo BIOS version
+
+skulls-x230 0.0.9 - released 2018-08-06
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit 4591bb6f7b
+  (parent in master branch 9ea7762e79)
+* brightness level is remembered now
+* added script to check for new releases
+* improved installation scripts
+* update coreboot-sdk to version 1.52
+
+skulls-x230 0.0.8 - released 2018-07-06
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit e49ac56808
+  (parent in master branch cf243657e7)
+* update SeaBIOS to version 1.11.2
+* update Intel's microcode revision from 1f to 20
+  (this includes Spectre Variant 3a and 4 mitigations)
+
+skulls-x230 0.0.7 - released 2018-06-18
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit a7835c462e
+* reproducible builds
+* improved installation scripts
+* keep the TPM active
+
+skulls-x230 0.0.6 - released 2018-05-16
+---------------------------------------
+This release includes the following changes:
+* based on coreboot commit d8ec973fd2
+* faster booting (unneeded driver init removed)
+* documentation improvements
+
+coreboot-x230 0.0.5 - released 2018-04-18
+-----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 92263853ad
+* update SeaBIOS to version 1.11.1
+* new release packaging
+* scripts to simplify flashing
+
+coreboot-x230 0.0.4 - released 2018-03-15
+-----------------------------------------
+This release includes the following changes:
+* based on coreboot commit cb9f55ec38
+* update Intel's microcode revision from 1c to 1f
+  (this includes Spectre/Meltdown mitigations)
+
+coreboot-x230 0.0.3 - released 2018-02-20
+-----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 35972def1d
+* include the nvramcui graphical CMOS settings payload
+* include Intel's stable microcode revision 1c
+* support for all X230 models (from now on)
+
+coreboot-x230 0.0.2 - released 2018-01-17
+-----------------------------------------
+This release includes the following changes:
+* based on coreboot commit 533ea7adb5
+* Intel microcode 20180108 included (in CBFS)
+* only the i5-3320M CPU model is supported now
+* VGA BIOS rom (proprietary binary) executed in secure mode
+
+coreboot-x230 0.0.1 - released 2018-01-02
+-----------------------------------------
+This release is the initial first working release.
+It includes and runs the proprietary VGA BIOS in
+direct mode and should work on any X230 model.
+Based on coreboot commit 75b154334d
